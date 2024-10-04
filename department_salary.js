@@ -84,3 +84,8 @@ function calculateCompanySalary(company) {
     });
     return totalCompanySalary; // return total company salary
 };
+
+// test
+console.log(calculateDepartmentSalary(company.departments[0]));
+console.log(calculateDepartmentSalary(company.departments[1]));
+console.log(calculateCompanySalary(company));
